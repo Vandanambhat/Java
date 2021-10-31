@@ -2,8 +2,6 @@ package com.xworkz.dp.dao;
 
 import com.xworkz.dp.dto.LawyerDTO;
 
-import oracle.jrockit.jfr.tools.ConCatRepository;
-
 public class LawyerDAO {
 
 	private LawyerDTO[] lawyerDTOs = new LawyerDTO[10];
@@ -21,7 +19,7 @@ public class LawyerDAO {
 			this.lawyerDTOs[majjige++] = dto;
 			System.out.println("Invoked save method");
 		} else {
-			System.out.println("Invoked save method");
+			System.out.println("Pointing to null");
 		}
 	}
 

@@ -2,7 +2,7 @@ package com.xworkz.dp.starter;
 
 import com.xworkz.dp.dao.LawyerDAO;
 import com.xworkz.dp.dto.LawyerDTO;
-import com.xworkz.dp.dto.LawyerDTO;
+//import com.xworkz.dp.dto.LawyerDTO;
 
 public class LawyerStarter {
 

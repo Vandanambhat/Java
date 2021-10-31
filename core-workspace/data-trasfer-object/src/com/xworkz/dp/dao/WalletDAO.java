@@ -1,7 +1,6 @@
 package com.xworkz.dp.dao;
 
 import com.xworkz.dp.dto.WalletDTO;
-import com.xworkz.dp.dto.WalletDTO;
 
 public class WalletDAO {
 
