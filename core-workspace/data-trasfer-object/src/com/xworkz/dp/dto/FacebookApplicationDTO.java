@@ -1,6 +1,6 @@
 package com.xworkz.dp.dto;
 
-public class FacebookApplicationDTO extends ApplicationDTO{
+public class FacebookApplicationDTO extends ApplicationDTO {
 
 	private String ceoName;
 	private String headQuarter;
@@ -11,7 +11,7 @@ public class FacebookApplicationDTO extends ApplicationDTO{
 
 	public FacebookApplicationDTO(String ceoName, String headQuarter) {
 		super();
-		System.out.println("INvoked FacebookApplicationDTO arg constr");
+		System.out.println("Invoked FacebookApplicationDTO arg constr");
 		this.ceoName = ceoName;
 		this.headQuarter = headQuarter;
 	}
