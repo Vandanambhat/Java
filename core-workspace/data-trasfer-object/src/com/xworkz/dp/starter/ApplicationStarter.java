@@ -13,10 +13,13 @@ public class ApplicationStarter {
 		dao.save(new ApplicationDTO("Insta",3.5f, "Face Book", "Mark Zuckerberg"));
 		dao.getApplicationDTOByName("Insta");
 		
+		dao.save(new FacebookApplicationDTO("Rakesh","Bangalore"));
+		dao.displayAllApplicationDTOs();
+		
 //		ApplicationDTO application=new ApplicationDTO();
 //		InstagramApplicationDTO instagramApplicationDTO=(InstagramApplicationDTO)application;
-		//instagramApplicationDTO
-		dao.getFaceBookApplicationDTOs();
+		
+		
 		
 	
 				}

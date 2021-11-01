@@ -1,6 +1,6 @@
 package com.xworkz.dp.dto;
 
-public class InstagramApplicationDTO extends FacebookApplicationDTO{
+public class InstagramApplicationDTO extends ApplicationDTO{
 
 	private Integer totalUsers;
 	private String serverLocation;
