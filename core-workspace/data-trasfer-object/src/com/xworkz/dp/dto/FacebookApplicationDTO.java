@@ -11,6 +11,7 @@ public class FacebookApplicationDTO extends ApplicationDTO{
 
 	public FacebookApplicationDTO(String ceoName, String headQuarter) {
 		super();
+		System.out.println("INvoked FacebookApplicationDTO arg constr");
 		this.ceoName = ceoName;
 		this.headQuarter = headQuarter;
 	}

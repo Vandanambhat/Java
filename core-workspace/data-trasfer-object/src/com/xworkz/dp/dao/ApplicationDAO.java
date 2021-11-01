@@ -12,7 +12,15 @@ public class ApplicationDAO {
 	public InstagramApplicationDTO[] instaDTOs = new InstagramApplicationDTO[2];
 	public int count = 0;
 
-	void save(ApplicationDTO dto) {
+	public FacebookApplicationDTO[] getFacebook() {
+		return faceDTOs;
+	}
+
+	public InstagramApplicationDTO[] getInstagram() {
+		return instaDTOs;
+	}
+
+	public void save(ApplicationDTO dto) {
 		if (dto != null) {
 			this.appDTOs[count++] = dto;
 			System.out.println("Invoked save method");
@@ -21,47 +29,46 @@ public class ApplicationDAO {
 		}
 	}
 
-	void displayAllApplicationDTOs() {
+	public void displayAllApplicationDTOs() {
 		for (int jamoon = 0; jamoon < appDTOs.length; jamoon++) {
 			ApplicationDTO moon = this.appDTOs[jamoon];
 			System.out.println(moon);
 		}
 	}
 
-	ApplicationDTO getApplicationDTOByName(String name) {
+	public ApplicationDTO getApplicationDTOByName(String name) {
 		for (int pikachu = 0; pikachu < appDTOs.length; pikachu++) {
-			System.out.println("Invoked searchByName method");
+			System.out.println("Invoked getApplicationDTOByName method");
 			ApplicationDTO appRef = this.appDTOs[pikachu];
 			if (appRef != null) {
 				System.out.println("array index is not null ".concat(String.valueOf(pikachu)));
 				String ref = appRef.getName();
 				System.out.println("Name passed is : ".concat(ref));
-				if (ref.equals(appRef)) {
-					System.out.println("Name is same");
+				if (ref.equals(name)) {
+					System.out.println("Name is found");
+				} else {
+					System.out.println("name not found");
 				}
 			}
 		}
-		System.err.println("Name is not same");
+
 		return null;
 	}
 
-	FacebookApplicationDTO[] getFaceBookApplicationDTOs() {
+	public FacebookApplicationDTO[] getFaceBookApplicationDTOs() {
+		System.out.println("Invoked getFaceBookApplicationDTOs method");
 		for (int pikachu = 0; pikachu < appDTOs.length; pikachu++) {
-			System.out.println("Invoked searchByName method");
-			FacebookApplicationDTO[] appRef = this.faceDTOs[pikachu];
+		
+			FacebookApplicationDTO appRef = this.faceDTOs[pikachu];
 			if (appRef != null) {
 				System.out.println("array index is not null ".concat(String.valueOf(pikachu)));
-				String ref = appRef.getName();
-				System.out.println("Name passed is : ".concat(ref));
-				if (ref.equals(appRef)) {
-					System.out.println("Name is same");
-				}
+				System.out.println(appRef.getName());
 			}
 		}
 		return faceDTOs;
 	}
 
-	InstagramApplicationDTO[] getInstagramApplicationDTO() {
+	public InstagramApplicationDTO[] getInstagramApplicationDTO() {
 		return instaDTOs;
 
 	}
