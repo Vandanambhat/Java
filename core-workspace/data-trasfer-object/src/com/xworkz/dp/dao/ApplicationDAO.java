@@ -4,7 +4,6 @@ import com.xworkz.dp.dto.ApplicationDTO;
 import com.xworkz.dp.dto.FacebookApplicationDTO;
 import com.xworkz.dp.dto.InstagramApplicationDTO;
 
-
 public class ApplicationDAO {
 
 	public ApplicationDTO[] appDTOs = new ApplicationDTO[4];
@@ -24,6 +23,7 @@ public class ApplicationDAO {
 		if (dto != null && this.count < this.appDTOs.length) {
 			this.appDTOs[count++] = dto;
 			System.out.println("Invoked save method");
+//			System.out.println("".co);
 		} else {
 			System.out.println("pointing to null");
 		}
@@ -63,10 +63,16 @@ public class ApplicationDAO {
 
 //	public void displayAllFacebookApplictaionDTOs() {
 //		for (int jamoon = 0; jamoon < faceDTOs.length; jamoon++) {
-//	
+//	[app][app][][]
+//	[face][face][][]
+//	[insta][insta][insta][]
 //			FacebookApplicationDTO sun = this.faceDTOs[jamoon];
-//			if(sun != null) {
-//			
+//			if(sun != null && moon != null) {
+//			System.out.println("****Details of FacebookApplicationDTO****");
+//	System.out.println(moon.getName());
+//	System.out.println(moon.getCompany());
+//	System.out.println(moon.getFounder());
+//	System.out.println(moon.getVersion());
 //			System.out.println("****Details of FacebookApplicationDTO****");
 //			System.out.println(sun.getCeoName());
 //			System.out.println(sun.getHeadQuarter());
