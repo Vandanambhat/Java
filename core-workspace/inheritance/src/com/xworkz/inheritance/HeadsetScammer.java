@@ -1,5 +1,6 @@
-package com.xworkz.inheritance.device;
+package com.xworkz.inheritance;
 
+import com.xworkz.inheritance.device.Headset;
 import com.xworkz.inheritance.device.Headset.Type;
 
 public class HeadsetScammer {

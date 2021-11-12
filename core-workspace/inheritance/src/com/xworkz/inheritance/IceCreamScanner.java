@@ -1,5 +1,6 @@
-package com.xworkz.inheritance.device;
+package com.xworkz.inheritance;
 
+import com.xworkz.inheritance.device.IceCream;
 import com.xworkz.inheritance.device.IceCream.IceCreamFlavour;
 import com.xworkz.inheritance.device.IceCream.IceCreamType;
 

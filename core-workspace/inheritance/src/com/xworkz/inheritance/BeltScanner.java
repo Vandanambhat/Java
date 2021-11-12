@@ -1,4 +1,6 @@
-package com.xworkz.inheritance.device;
+package com.xworkz.inheritance;
+
+import com.xworkz.inheritance.device.Belt;
 
 public class BeltScanner {
 

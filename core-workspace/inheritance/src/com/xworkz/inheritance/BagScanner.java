@@ -1,6 +1,9 @@
-package com.xworkz.inheritance.device;
+package com.xworkz.inheritance;
 
-		public class BagScanner {
+import com.xworkz.inheritance.device.Bag;
+import com.xworkz.inheritance.device.BagColour;
+
+public class BagScanner {
 
 			public static void main(String[] args) {
 

@@ -7,7 +7,7 @@ public class Headset {
 	private Float battery;
 	private Float warranty;
 
-	enum Type {
+	public enum Type {
 		BLUETOOTH, WIRED;
 	}
 

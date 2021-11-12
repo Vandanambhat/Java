@@ -1,4 +1,5 @@
-package com.xowrkz.festival;
+package com.xworkz.wrapperClass;
+
 
 public class Equals {
 
