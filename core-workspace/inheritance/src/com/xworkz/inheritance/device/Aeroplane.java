@@ -24,7 +24,7 @@ public class Aeroplane {
 		@Override
 		public int hashCode() {
 			System.out.println("Invoked hashcode from Airoplane");
-			return 12;
+			return 108;
 		}
 
 		@Override
