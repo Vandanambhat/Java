@@ -10,6 +10,7 @@ public class RiverStarter {
 		
 		
 		Object object = new River();
+		
 		River river1 = (River) object;
 		System.out.println(river1.destination);
 		System.out.println(river1.name);
@@ -18,6 +19,7 @@ public class RiverStarter {
 		System.out.println("---------------------------------");
 		
 		Object kaveriRiver1=new KaveriRiver();
+		
 		KaveriRiver kaveri=(KaveriRiver)kaveriRiver1;
 		System.out.println(kaveri.sweet);//Kaveri River
 		System.out.println(kaveri.origin);
