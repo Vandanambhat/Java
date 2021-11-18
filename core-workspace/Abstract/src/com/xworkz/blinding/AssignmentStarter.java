@@ -11,7 +11,7 @@ public class AssignmentStarter {
 		System.out.println(qwerty1.getDay());
 
 		// displaying no.of methods
-		Assignment qwerty = new Assignment("Monday");
+		Assignment qwerty = new Assignment("Monday");//Cannot instantiate the type Assignment
 		Class claz = qwerty.getClass();
 
 		Method[] method = claz.getDeclaredMethods();

@@ -5,7 +5,7 @@ package com.xworkz.blinding;
  * can inherit through sub-class
  * if "method" is declared as "Abstract" --> class should also be declared as "Abstract"
  */
-public  class Assignment {// The type Assignment must be an abstract class to define abstract methods
+public abstract class Assignment {// The type Assignment must be an abstract class to define abstract methods
 
 	private String day;
 
@@ -29,9 +29,7 @@ public  class Assignment {// The type Assignment must be an abstract class to de
 
 	// The abstract method cloneTask in type Assignment can only set a visibility
 	// modifier, one of public or protected
-	public  void cloneTask() {
-		
-	}
+	public  abstract void cloneTask();
 
 	public String getDay() {
 		return day;
