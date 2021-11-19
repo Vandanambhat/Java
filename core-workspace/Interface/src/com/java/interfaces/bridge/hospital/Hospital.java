@@ -48,11 +48,12 @@ public class Hospital {
 		if(hospitalAdmitRule!=null) {
 			System.out.println("Invoked dischargePatient");
 			 double discountAmount=this.hospitalDischargeRule.discount();
-			 if(discountAmount<=1000) {
+			 
+			 if(discountAmount<=10000) {
 				 System.out.println("Hospital will give discount");
 				 
 			 }else {
-				 System.err.println("Hospital did not give any discount to him");
+				 System.err.println("Hospital ");
 			 }
 			 
 			  boolean totalAmount=this.hospitalDischargeRule.payBill();
@@ -67,7 +68,7 @@ public class Hospital {
 	}
 
 }
-		
-	}
+
+}
 
 }

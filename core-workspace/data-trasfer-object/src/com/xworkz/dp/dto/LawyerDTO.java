@@ -15,17 +15,17 @@ public class LawyerDTO {
 		System.out.println("Invoked LawyerDTO no-arg Constr");
 	}
 
-	public LawyerDTO(String name, String qualification, Float experience, String gender, Integer age, String courtType,
-			Integer casesWon, Integer casesLost) {
+	public LawyerDTO(String name, String qualification, float f, String gender, int i, String courtType,
+			int j, int k) {
 		super();
 		this.name = name;
 		this.qualification = qualification;
-		this.experience = experience;
+		this.experience = f;
 		this.gender = gender;
-		this.age = age;
+		this.age = i;
 		this.courtType = courtType;
-		this.casesWon = casesWon;
-		this.casesLost = casesLost;
+		this.casesWon = j;
+		this.casesLost = k;
 	}
 
 	public String getName() {
