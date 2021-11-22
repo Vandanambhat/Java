@@ -1,0 +1,9 @@
+package com.xworkz.blinding;
+
+public class JavaAssignment extends Assignment {
+
+	public JavaAssignment() {
+		super("mon");
+	}
+
+}

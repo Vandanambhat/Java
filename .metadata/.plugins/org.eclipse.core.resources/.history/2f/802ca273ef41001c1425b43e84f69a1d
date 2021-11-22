@@ -1,0 +1,20 @@
+package com.xworkz.inheritance;
+
+import com.xworkz.inheritance.device.Ipod;
+
+public class IpodScammer {
+
+	public static void main(String[] args) {
+
+		Ipod ipod=new Ipod();
+		System.out.println(ipod);
+		System.out.println(ipod.toString());
+		System.out.println(System.identityHashCode(ipod));
+		
+		Ipod ipod1=new Ipod();
+		System.out.println(ipod1);
+		System.out.println(ipod1.toString());
+		System.out.println(System.identityHashCode(ipod1));
+	}
+
+}

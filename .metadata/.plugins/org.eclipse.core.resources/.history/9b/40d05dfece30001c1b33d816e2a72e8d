@@ -1,0 +1,64 @@
+package com.xworkz.wrapperClass;
+
+public class integerwrap {
+
+	public static void main(String[] args) {
+		
+		//Integer	
+		//1
+		int rank=100;
+		Integer rank1=new Integer(7);
+		int r=Integer.valueOf(rank).compareTo(rank1);
+		System.out.println("Integer Methods");
+		System.out.println(r);
+		
+		//2 getInteger
+		Integer high=Integer.highestOneBit(rank);
+		System.out.println(high);
+		
+		//3
+		System.out.println(Integer.lowestOneBit(rank));
+		
+		//4
+		System.out.println(Integer.rotateLeft(rank, 1));
+		//5
+		System.out.println(Integer.bitCount(rank));
+		
+		//float methods
+		//1
+		float percentage=90f;
+		String name="vandana";
+//	Float percent=new Float(percentage);	
+		
+		System.out.println();
+		
+		System.out.println("Float methods");
+		System.out.println(Float.intBitsToFloat(6));//intBitsToFloat
+		Float percent=new Float(85f);
+		
+		Float percent1=new Float(85f);
+		//1
+		System.out.println(Float.compare(percent, percentage));//compare
+		System.out.println(new Float(30.4f).compareTo(new Float(30.4f)));//compare
+		
+		//2
+		//System.out.println(Float.compareTo(percent));//compareTo
+		
+		//3
+		System.out.println(percent.floatValue()==percent1.floatValue());//equals
+		//4
+		System.out.println(Float.MIN_VALUE);
+		System.out.println(Float.SIZE);
+		
+		//double methods
+		//1
+		double rational=223.5576d;
+		System.out.println(Double.doubleToLongBits(rank));//doubleToLongBits
+		//2
+		System.out.println(Double.isInfinite(rational));
+		//3
+		System.out.println(Double.isFinite(rational));
+		System.out.println(6);
+	}
+
+}

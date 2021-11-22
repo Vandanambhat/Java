@@ -1,0 +1,14 @@
+package com.xworkz.dp;
+
+public class ArmyDTO {
+
+	private String country;
+	private int noOfSoldiers;
+	private int noOfTankers;
+	private int noOfCarriers;
+	private String major;
+	
+	public ArmyDTO(){
+		System.out.println("Invoked No-arg Constructor");
+	}
+}

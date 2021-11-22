@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;festival/src/com/xowrkz/festival/Festival.java&apos; to &apos;Equals.java&apos;" description="Rename resource &apos;Festival.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/xowrkz/festival/Festival.java" name="Equals.java" stamp="1634199729267" updateReferences="true"/>
+</session>

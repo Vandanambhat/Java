@@ -1,0 +1,23 @@
+package com.xworkz.inheritance.device;
+
+public class Watch {
+
+	@Override
+	public String toString() {
+		System.out.println("Invoked toString");
+		return super.toString();
+	}
+
+	@Override
+	public int hashCode() {
+		System.out.println("Invoked hashCode");
+		return super.hashCode();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		System.out.println("Invoked equals");
+		return super.equals(obj);
+	}
+
+}

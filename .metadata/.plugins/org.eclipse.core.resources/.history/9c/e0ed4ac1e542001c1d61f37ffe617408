@@ -1,0 +1,52 @@
+package com.xworkz.inheritance.device;
+
+public class Plant {
+	private String name;
+	private boolean alive;
+	private Integer lifeSpan;
+	private Type plantType;
+
+	enum Type {
+		SHORT, MEDIUM, LONG;
+	}
+
+	public Plant(String name, boolean alive, Integer lifeSpan, Type plantType) {
+		super();
+		this.name = name;
+		this.alive = alive;
+		this.lifeSpan = lifeSpan;
+		this.plantType = plantType;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public boolean isAlive() {
+		return alive;
+	}
+
+	public void setAlive(boolean alive) {
+		this.alive = alive;
+	}
+
+	public Integer getLifeSpan() {
+		return lifeSpan;
+	}
+
+	public void setLifeSpan(Integer lifeSpan) {
+		this.lifeSpan = lifeSpan;
+	}
+
+	public Type getPlantType() {
+		return plantType;
+	}
+
+	public void setPlantType(Type plantType) {
+		this.plantType = plantType;
+	}
+}

@@ -1,0 +1,15 @@
+package com.xworkz.blinding;
+
+public class JavaAssignment extends Assignment {
+
+	public JavaAssignment() {
+		super("mon");
+	}
+
+	@Override
+	public void cloneTask() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

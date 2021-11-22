@@ -1,0 +1,13 @@
+package com.xworkz.inheritance;
+
+import com.xworkz.inheritance.device.Ipod;
+
+public class IpodScammer {
+
+	public static void main(String[] args) {
+
+		Ipod ipod=new Ipod();
+		System.out.println(ipod.toString());
+	}
+
+}

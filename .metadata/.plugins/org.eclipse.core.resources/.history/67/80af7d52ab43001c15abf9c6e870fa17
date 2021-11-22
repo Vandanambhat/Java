@@ -1,0 +1,15 @@
+package com.xworkz.blinding;
+
+public class JavaAssignment extends Assignment {
+
+	public JavaAssignment(String day) {
+		System.out.println("Invoked JavaAssignment");
+		super("mon");
+	}
+
+	@Override
+	public void cloneTask() {
+		
+	}
+
+}

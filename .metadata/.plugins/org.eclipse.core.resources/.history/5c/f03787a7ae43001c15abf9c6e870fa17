@@ -1,0 +1,20 @@
+package com.xworkz.blinding;
+
+public class JavaAssignment extends Assignment {
+	//The type JavaAssignment must implement the inherited abstract method Assignment.cloneTask()
+
+	public JavaAssignment(String day) {
+		super("mon");
+		System.out.println("Invoked JavaAssignment");
+
+	}
+
+	@Override
+	public void cloneTask() {
+		System.out.println("invoked @Override cloneTask");
+	}
+
+	public static void dtoTask() {
+		System.out.println("Invoked DTO Task");
+	}
+}

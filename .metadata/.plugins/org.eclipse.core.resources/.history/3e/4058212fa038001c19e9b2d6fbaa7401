@@ -1,0 +1,10 @@
+package com.xworkz.dp.dao;
+
+import com.xworkz.dp.dto.WalletDTO;
+
+public class WalletDAO {
+
+	private WalletDTO[] walletDTOs=new WalletDTO[10];
+	
+	void 
+}

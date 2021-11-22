@@ -1,0 +1,18 @@
+package com.xworkz.inheritance.device;
+
+import com.xworkz.inheritance.device.Watch.Type;
+
+public class WatchStarter {
+
+	public static void main(String[] args) {
+
+		Watch watchTime=new Watch("", null, null);
+		System.out.println(watchTime);
+		System.out.println(watchTime.toString());
+		System.out.println(watchTime.hashCode());
+		System.out.println(System.identityHashCode(watchTime));
+		
+		Watch watchTime1=new Watch("ROLEX", Type.ANALOG, 4000f);
+	}
+
+}

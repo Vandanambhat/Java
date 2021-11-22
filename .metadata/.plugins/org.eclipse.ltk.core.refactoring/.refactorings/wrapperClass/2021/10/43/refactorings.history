@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;wrapperClass/src/com/xworkz/wrapperClass/wrapper.java&apos; to &apos;integerwrap.java&apos;" description="Rename resource &apos;wrapper.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/xworkz/wrapperClass/wrapper.java" name="integerwrap.java" stamp="1634625459562" updateReferences="true"/>
+</session>

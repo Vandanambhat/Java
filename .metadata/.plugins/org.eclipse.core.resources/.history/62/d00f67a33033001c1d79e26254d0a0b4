@@ -1,0 +1,17 @@
+package com.xworkz.dp;
+
+public class ArmyStarter {
+
+	public static void main(String[] args) {
+
+		ArmyDTO armyDTO = new ArmyDTO();
+		armyDTO.setCountry("India");
+		armyDTO.setNoOfSoldiers(300000);
+		armyDTO.setNoOfTankers(1);
+		armyDTO.setNoOfCarriers(20);
+		armyDTO.setMajor("Rakesh");
+
+		ArmyDTO amryDTO1=new ArmyDTO("Spain", 0, 0, 0, null)
+	}
+
+}

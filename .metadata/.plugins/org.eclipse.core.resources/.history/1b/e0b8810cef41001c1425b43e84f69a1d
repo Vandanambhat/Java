@@ -1,0 +1,9 @@
+package com.xworkz.inheritance;
+
+public class IpodScammer {
+
+	public static void main(String[] args) {
+
+	}
+
+}

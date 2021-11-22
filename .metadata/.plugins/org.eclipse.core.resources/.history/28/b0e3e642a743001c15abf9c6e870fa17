@@ -1,0 +1,17 @@
+package com.xworkz.blinding;
+
+public class Assignment {
+
+	private String day;
+	
+	public Assignment() {
+		System.out.println("Invoked Assignment");
+		this.day=day;
+	}
+	
+	public void doneTask() {
+		System.out.println("Invoked doneTask");
+		System.out.println("day is : ".concat(day));
+	}
+	
+}

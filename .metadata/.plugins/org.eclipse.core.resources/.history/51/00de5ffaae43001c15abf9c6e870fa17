@@ -1,0 +1,12 @@
+package com.xworkz.blinding;
+
+public class AssignmentStarter {
+
+	public static void main(String[] args) {
+//Cannot instantiate the type Assignment
+
+//		Assignment qwerty = new Assignment("Monday");
+		Assignment qwerty1 = new JavaAssignment("Monday");
+		
+	}
+}

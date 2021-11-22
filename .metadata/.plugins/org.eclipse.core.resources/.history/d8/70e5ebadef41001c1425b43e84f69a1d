@@ -1,0 +1,16 @@
+package com.xworkz.inheritance.device;
+
+public class Ipod {
+
+	@Override
+	public String toString() {
+		System.out.println("Invoked toString");
+		return "ipod";
+	}
+	
+	@Override
+	public int hashCode() {
+		System.out.println("Invoked hashCode");
+		return 100;
+	}
+}
