@@ -60,6 +60,5 @@ public class AmazonBusiness {
 				System.out.println(cartRef.getItems());
 			}
 		}
-
 	}
 }
