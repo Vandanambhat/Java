@@ -1,7 +1,5 @@
 package com.xworkz.interfaces.airport_DTO_DAO;
 
-
-
 public class AirportTakeOff {
 
 	private AirportDAO dao;
@@ -10,13 +8,13 @@ public class AirportTakeOff {
 
 	public AirportTakeOff(AirportDAO dao) {
 		super();
-		System.out.println("Invoked para Bird Flying");
+		System.out.println("Invoked para Airport TakeOff");
 		this.dao = dao;
 	}
 
 	public AirportTakeOff(AirportDAO dao, AirportDTO[] airDTO, int count) {
 		super();
-		System.out.println("Invoked para AirportTakeOff");
+		System.out.println("Invoked para Airport TakeOff");
 		this.dao = dao;
 		this.airDTO = airDTO;
 		this.count = count;
@@ -43,9 +41,9 @@ public class AirportTakeOff {
 			if (cartRef != null) {
 				String birdName = cartRef.getName();
 				if (birdName.equals(adto)) {
-					System.out.println("Passed Name is found");
+					System.out.println("Passed Airport Name is found");
 				} else {
-					System.out.println("Passed name is not found");
+					System.out.println("Passed Airport name is not found");
 				}
 
 			}
@@ -55,12 +53,12 @@ public class AirportTakeOff {
 
 	public void displayCart() {
 		for (int i = 0; i < airDTO.length; i++) {
-			AirportDTO cartRef = this.airDTO[count];
-			if (cartRef != null) {
-				System.out.println(cartRef.getId());
-				System.out.println(cartRef.getLocation());
-				System.out.println(cartRef.getName());
-				System.out.println(cartRef.getType());
+			AirportDTO airRef = this.airDTO[count];
+			if (airRef != null) {
+				System.out.println(airRef.getId());
+				System.out.println(airRef.getLocation());
+				System.out.println(airRef.getName());
+				System.out.println(airRef.getType());
 			}
 		}
 
