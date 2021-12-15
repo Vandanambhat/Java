@@ -4,7 +4,7 @@ public class ClothBrandScanner {
 
 	public static void main(String[] args) {
 
-		ClothBrandDAO dao = new ClothBrandDAO();
+		ClothBrandsDAO dao = new ClothBrandsDAO();
 		dao.save("Zudio");
 		dao.save("PterEngland");
 		dao.save("H&M");

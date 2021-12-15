@@ -4,7 +4,7 @@ public class FruitsScanner {
 
 	public static void main(String[] args) {
 
-		ClothBrandDAO dao = new ClothBrandDAO();
+		FruitsDAO dao = new FruitsDAO();
 		dao.save("Mango");
 		dao.save("Apple");
 		dao.save("BANANA");
