@@ -192,84 +192,66 @@ public class CollectionAdd {
 		
 
 		// movies
-		movie.add("Unhinged");
-		movie.add("Like a Boss");
-		movie.add("Bloodshot");
-		movie.add("Emma");
-		movie.add("Trolls World Tour");
-		movie.add("Gretel & Hansel");
-		movie.add("Scoob!");
-		movie.add("Brahms: The Boy II");
-		movie.add("The Turning");
-		movie.add("The Way Back");
-		movie.add("La Belle Epoque");
-		movie.add("I Still Believe");
-		movie.add("The Hunt");
-		movie.add("Las Pildoras De Mi Novio");
-		movie.add("Mission: Impossible 2 ");
-		movie.add("Gladiator");
-		movie.add("Cast Away");
-		movie.add("What Women Want");
-		movie.add("Dinosaur");
-		movie.add("How the Grinch Stole Christmas");
-		movie.add("Meet the Parents");
-		movie.add("The Perfect Storm");
-		movie.add("X-Men");
-		movie.add("What Lies Beneath");
-		movie.add("Avengers: Endgame");
-		movie.add("Star Wars: The Force Awakens");
-		movie.add("Avengers: Infinity War");
-		movie.add("Jurassic World");
-		movie.add("The Lion King");
-		movie.add("The Avengers");
-		movie.add("Furious 7");
-		movie.add("Frozen II");
-		movie.add("Avengers: Age of Ultron");
-		movie.add("Black Panther");
-		movie.add("Harry Potter and the Deathly Hallows  Part 2");
-		movie.add("Star Wars: The Last Jedi");
-		movie.add("Jurassic World: Fallen Kingdom");
-		movie.add("Frozen");
-		movie.add("Beauty and the Beast");
-		movie.add("Incredibles 2");
-		movie.add("The Fate of the Furious");
-		movie.add("Iron Man 3");
-		movie.add("gita govida");
-		movie.add("comrade");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
-		collection.add("");
+		collection.add("Unhinged");
+		collection.add("Like a Boss");
+		collection.add("Bloodshot");
+		collection.add("Emma");
+		collection.add("Trolls World Tour");
+		collection.add("Gretel & Hansel");
+		collection.add("Scoob!");
+		collection.add("Brahms: The Boy II");
+		collection.add("The Turning");
+		collection.add("The Way Back");
+		collection.add("La Belle Epoque");
+		collection.add("I Still Believe");
+		collection.add("The Hunt");
+		collection.add("Las Pildoras De Mi Novio");
+		collection.add("Mission: Impossible 2 ");
+		collection.add("Gladiator");
+		collection.add("Cast Away");
+		collection.add("What Women Want");
+		collection.add("Dinosaur");
+		collection.add("How the Grinch Stole Christmas");
+		collection.add("Meet the Parents");
+		collection.add("The Perfect Storm");
+		collection.add("X-Men");
+		collection.add("What Lies Beneath");
+		collection.add("Avengers: Endgame");
+		collection.add("Star Wars: The Force Awakens");
+		collection.add("Avengers: Infinity War");
+		collection.add("Jurassic World");
+		collection.add("The Lion King");
+		collection.add("The Avengers");
+		collection.add("Furious 7");
+		collection.add("Frozen II");
+		collection.add("Avengers: Age of Ultron");
+		collection.add("Black Panther");
+		collection.add("Harry Potter and the Deathly Hallows  Part 2");
+		collection.add("Star Wars: The Last Jedi");
+		collection.add("Jurassic World: Fallen Kingdom");
+		collection.add("Frozen");
+		collection.add("Beauty and the Beast");
+		collection.add("Incredibles 2");
+		collection.add("The Fate of the Furious");
+		collection.add("Iron Man 3");
+		collection.add("gita govida");
+		collection.add("comrade");
+		collection.add("Bad Boys for Life");
+		collection.add("Sonic the Hedgehog");
+		collection.add("Tenet");
+		collection.add("Dolittle");
+		collection.add("Birds of Prey");
+		collection.add("The Invisible Man");
+		collection.add("The Gentlemen");
+		collection.add("The Call of the Wild");
+		collection.add("Onward");
+		collection.add("Mulan");
+		collection.add("tanhaji");
+		collection.add("Tolo Tolo");
+		collection.add("The Grudge");
+		collection.add("Fantasy Island");
+		collection.add("Underwater");
+		collection.add("The New Mutants");
 		
 		//webseries
 		collection.add("Capitol Hill");
@@ -335,7 +317,7 @@ public class CollectionAdd {
 
 		System.out.println(" No of web series:" + collection.size());
 		collection.remove("Cowboy Bebop Season 1");
-		System.out.println(" No of web series After Delete:" + collection.size());
+		System.out.println(" No of web series After remove:" + collection.size());
 		
 		//cities
 		collection.add("aurangabad");
@@ -401,7 +383,7 @@ public class CollectionAdd {
 		
 		System.out.println(" No of cities:" + collection.size());
 		collection.remove("kolhapur");
-		System.out.println(" No of cities After Delete:" + collection.size());
+		System.out.println(" No of cities After remove:" + collection.size());
 		
 		collection.add("");// Sweets
 		collection.add("Arisa Pitha");
@@ -467,7 +449,7 @@ public class CollectionAdd {
 
 		System.out.println(" No of Sweets:" + collection.size());
 		collection.remove("Chhena jalebi");
-		System.out.println(" No of Sweets After delete:" + collection.size());
+		System.out.println(" No of Sweets After remove:" + collection.size());
 		
 		// Bikes
 		collection.add("Bajaj Dominar 400");
@@ -656,8 +638,9 @@ public class CollectionAdd {
 		collection.add("Cream Lipsticks");
 
 		System.out.println(" No of Lipstick:" + collection.size());
+		//int midElement= collection/2;
 		collection.remove("CHARLOTTE TILBURY");
-		System.out.println(" No of Lipstick After delete:" + collection.size());
+		System.out.println(" No of Lipstick After remove method:" + collection.size());
 
 		System.out.println(collection.size());
 
