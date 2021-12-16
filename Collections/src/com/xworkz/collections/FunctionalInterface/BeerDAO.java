@@ -1,10 +1,8 @@
-package com.xworkz.collections;
+package com.xworkz.collections.FunctionalInterface;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
-
-import com.xworkz.collections.FunctionalInterface.BeerSearch;
 
 public class BeerDAO {
 

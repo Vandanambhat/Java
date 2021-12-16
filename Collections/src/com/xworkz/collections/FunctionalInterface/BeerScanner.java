@@ -1,8 +1,4 @@
-package com.xworkz.collections;
-
-import com.xworkz.collections.FunctionalInterface.BeerSearch;
-import com.xworkz.collections.FunctionalInterface.EqualsBeerSearch;
-import com.xworkz.collections.FunctionalInterface.EqualsIgnoreCaseBeerSearch;
+package com.xworkz.collections.FunctionalInterface;
 
 public class BeerScanner {
 
